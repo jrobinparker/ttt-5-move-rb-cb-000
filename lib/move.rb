@@ -11,7 +11,6 @@ end
 def input_to_index(user_input)
   user_input = gets.chomp!
   user_input.to_i
-  user_input = user_input - 1
 end 
 
   
